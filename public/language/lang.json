@@ -1,0 +1,38 @@
+[
+  {
+    "flag": "🇻🇳",
+    "country": "Tiếng Việt",
+    "id": "vi",
+    "ui": {
+      "my_cv": "HỒ SƠ CỦA TÔI",
+      "choose_language": "CHỌN NGÔN NGỮ",
+      "start": "Bắt đầu",
+      "scroll_to_pick": "Cuộn chuột để nhặt CV",
+      "export_pdf": "Xuất PDF"
+    }
+  },
+  {
+    "flag": "🇬🇧",
+    "country": "English",
+    "id": "en",
+    "ui": {
+      "my_cv": "MY RESUME",
+      "choose_language": "CHOOSE LANGUAGE",
+      "start": "Start",
+      "scroll_to_pick": "Scroll down to read",
+      "export_pdf": "Export PDF"
+    }
+  },
+  {
+    "flag": "🇨🇳",
+    "country": "中文",
+    "id": "zh",
+    "ui": {
+      "my_cv": "我的简历",
+      "choose_language": "选择语言",
+      "start": "开始",
+      "scroll_to_pick": "向下滚动阅读",
+      "export_pdf": "导出 PDF"
+    }
+  }
+]

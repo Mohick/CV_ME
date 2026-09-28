@@ -1,0 +1,173 @@
+{
+  "vi": {
+    "sidebar": {
+      "role": "FRONT END",
+      "phone": "+84 354 242 988",
+      "email": "dubaonhan@gmail.com",
+      "location": "Hòa Thạnh - Tân Phú - TP.HCM",
+      "dob": "03/09/2004",
+      "gender": "Nam",
+      "programming_langs_title": "NGÔN NGỮ LẬP TRÌNH",
+      "programming_langs": ["JavaScript (ES6+, Async/Await)", "Golang (Gin)"],
+      "tools_title": "CÔNG CỤ",
+      "tools": ["Antigravity", "VS Code", "Postman", "Codex"],
+      "certs_title": "CHỨNG CHỈ",
+      "certs": [
+        { "name": "HTML 5 - F8", "date": "3/2023" },
+        { "name": "CSS 3 - F8", "date": "4/2023" },
+        { "name": "Javascript - F8", "date": "3/2023" }
+      ]
+    },
+    "main": {
+      "career_goal_title": "Mục Tiêu Nghề Nghiệp",
+      "short_term_title": "Mục tiêu ngắn hạn:",
+      "short_term_desc": "Gia nhập một đội ngũ kỹ thuật chuyên nghiệp ở vai trò Front-End Developer, nơi tôi có thể vận dụng nền tảng React.js/Next.js sẵn có, học hỏi từ đồng nghiệp giàu kinh nghiệm, và từng bước chứng minh năng lực qua các dự án thực tế của công ty.",
+      "long_term_title": "Mục tiêu dài hạn:",
+      "long_term_desc": "Phát triển thành Senior Front-End Developer với chuyên môn sâu về kiến trúc giao diện và tối ưu hiệu năng, đồng thời mở rộng kiến thức sang Back-End để hướng tới vai trò Fullstack toàn diện trong tương lai.",
+      "projects_title": "Dự Án",
+      "project_1": {
+        "name": "TASK MANAGER",
+        "role": "Role: Fullstack",
+        "goal": "Ứng dụng quản lý dự án giúp tối ưu hóa quy trình làm việc giữa ba vai trò — Leader, Confirmer, và Member.",
+        "arch": "Cấu trúc thư mục theo tính năng với tầng dịch vụ CRUD dùng chung, sử dụng Axios interceptors để tự động đính kèm token JWT, cùng với các Router bảo mật lồng nhau, kết hợp modal dựa trên tuyến đường để duy trì trạng thái URL.",
+        "features": "Phân quyền người dùng, Leader có thể mời các thành viên vào team thông qua email, các thành viên đang online có thể thấy thành viên khác nhận task theo thời gian thực. Leader tạo task, có thể cấp quyền cho thành viên lên Confirmer hoặc chuyển vị trí Admin...",
+        "tech": "React 19, TypeScript, Vite, React Router, Tailwind CSS v4, React Query, Zustand, Axios, Socket.io, Framer Motion, GSAP, Chart.js, React Hook Form | Node.js, Express, MongoDB, Redis, Bun.",
+        "source": "Mã nguồn",
+        "demo": "Demo"
+      },
+      "project_2": {
+        "name": "AGRI TECH PLATFORM",
+        "role": "Vai trò: Back End Developer",
+        "goal": "Phát triển một hệ thống giao dịch nông sản tập trung vào việc khai báo minh bạch nguồn gốc sản phẩm, cho phép người dùng mua bán nông sản đồng thời quản lý quá trình canh tác và trồng trọt.",
+        "features": "Triển khai hệ thống phân quyền (RBAC) và toàn bộ các quy trình thương mại điện tử, trò chuyện theo thời gian thực (real-time chat) có hỗ trợ chia sẻ hình ảnh, xuất hóa đơn tích hợp blockchain...",
+        "result": "Hoàn thành và bàn giao một phiên bản MVP hoạt động tốt trong thời hạn 3 tháng.",
+        "tech": "Golang, Gin, GORM, MySQL, Next.js, TypeScript, Tailwind CSS.",
+        "tools": "Git, GitHub, Trello, Antigravity."
+      },
+      "education_title": "Học vấn",
+      "education_school": "Trường Cao Đẳng Công Nghệ Thông Tin TP.HCM (ITC)",
+      "labels": {
+        "goal": "Mục tiêu",
+        "arch": "Kiến trúc",
+        "features": "Chức năng",
+        "tech": "Công nghệ",
+        "result": "Kết quả",
+        "tools": "Công cụ"
+      }
+    }
+  },
+  "en": {
+    "sidebar": {
+      "role": "FRONT END DEVELOPER",
+      "phone": "+84 354 242 988",
+      "email": "dubaonhan@gmail.com",
+      "location": "Hoa Thanh - Tan Phu - HCM City",
+      "dob": "03/09/2004",
+      "gender": "Male",
+      "programming_langs_title": "PROGRAMMING LANGUAGES",
+      "programming_langs": ["JavaScript (ES6+, Async/Await)", "Golang (Gin)"],
+      "tools_title": "TOOLS",
+      "tools": ["Antigravity", "VS Code", "Postman", "Codex"],
+      "certs_title": "CERTIFICATIONS",
+      "certs": [
+        { "name": "HTML 5 - F8", "date": "3/2023" },
+        { "name": "CSS 3 - F8", "date": "4/2023" },
+        { "name": "Javascript - F8", "date": "3/2023" }
+      ]
+    },
+    "main": {
+      "career_goal_title": "Career Objective",
+      "short_term_title": "Short-term Goal:",
+      "short_term_desc": "Join a professional engineering team as a Front-End Developer, applying my React.js/Next.js foundation, learning from experienced colleagues, and proving my capabilities through real-world projects.",
+      "long_term_title": "Long-term Goal:",
+      "long_term_desc": "Develop into a Senior Front-End Developer with deep expertise in UI architecture and performance optimization, while expanding knowledge to Back-End to become a Fullstack developer.",
+      "projects_title": "Projects",
+      "project_1": {
+        "name": "TASK MANAGER",
+        "role": "Role: Fullstack",
+        "goal": "Project management application optimizing workflow between three roles: Leader, Confirmer, and Member.",
+        "arch": "Feature-based directory structure with shared CRUD services, Axios interceptors for automatic JWT attachment, nested secure routers, and route-based modals for URL state persistence.",
+        "features": "Role-based access control, Leaders can invite members via email, online members can see others taking tasks in real-time. Leaders create tasks, grant Confirmer permissions, transfer Admin...",
+        "tech": "React 19, TypeScript, Vite, React Router, Tailwind CSS v4, React Query, Zustand, Axios, Socket.io, Framer Motion, GSAP, Chart.js, React Hook Form | Node.js, Express, MongoDB, Redis, Bun.",
+        "source": "Source Code",
+        "demo": "Live Demo"
+      },
+      "project_2": {
+        "name": "AGRI TECH PLATFORM",
+        "role": "Role: Back End Developer",
+        "goal": "Develop an agricultural trading system focusing on transparent product origin declaration, allowing users to trade produce while managing farming processes.",
+        "features": "Implement RBAC and full e-commerce workflows, real-time chat with image sharing, blockchain-integrated invoicing...",
+        "result": "Completed and delivered a fully functional MVP within a 3-month timeframe.",
+        "tech": "Golang, Gin, GORM, MySQL, Next.js, TypeScript, Tailwind CSS.",
+        "tools": "Git, GitHub, Trello, Antigravity."
+      },
+      "education_title": "Education",
+      "education_school": "Ho Chi Minh City College of Information Technology (ITC)",
+      "labels": {
+        "goal": "Goal",
+        "arch": "Architecture",
+        "features": "Features",
+        "tech": "Tech Stack",
+        "result": "Result",
+        "tools": "Tools"
+      }
+    }
+  },
+  "cn": {
+    "sidebar": {
+      "role": "前端开发",
+      "phone": "+84 354 242 988",
+      "email": "dubaonhan@gmail.com",
+      "location": "胡志明市 - 新富区",
+      "dob": "2004年09月03日",
+      "gender": "男",
+      "programming_langs_title": "编程语言",
+      "programming_langs": ["JavaScript (ES6+, Async/Await)", "Golang (Gin)"],
+      "tools_title": "工具",
+      "tools": ["Antigravity", "VS Code", "Postman", "Codex"],
+      "certs_title": "证书",
+      "certs": [
+        { "name": "HTML 5 - F8", "date": "3/2023" },
+        { "name": "CSS 3 - F8", "date": "4/2023" },
+        { "name": "Javascript - F8", "date": "3/2023" }
+      ]
+    },
+    "main": {
+      "career_goal_title": "职业目标",
+      "short_term_title": "短期目标：",
+      "short_term_desc": "作为前端开发人员加入专业技术团队，运用我的React.js/Next.js基础，向经验丰富的同事学习，并通过实际项目证明自己的能力。",
+      "long_term_title": "长期目标：",
+      "long_term_desc": "发展成为在UI架构和性能优化方面具有深厚专业知识的高级前端开发人员，同时将知识扩展到后端，成为一名前栈开发人员。",
+      "projects_title": "项目经验",
+      "project_1": {
+        "name": "任务管理系统 (TASK MANAGER)",
+        "role": "角色：全栈开发",
+        "goal": "优化Leader，Confirmer和Member三个角色之间工作流程的项目管理应用程序。",
+        "arch": "基于功能的目录结构和共享CRUD服务，用于自动JWT附件的Axios拦截器，嵌套安全路由器，以及用于URL状态持久性的基于路由的模态框。",
+        "features": "基于角色的访问控制，Leader可以通过电子邮件邀请成员，在线成员可以实时看到其他人接收任务...",
+        "tech": "React 19, TypeScript, Vite, React Router, Tailwind CSS v4, React Query, Zustand, Axios, Socket.io, Framer Motion, GSAP, Chart.js, React Hook Form | Node.js, Express, MongoDB, Redis, Bun.",
+        "source": "源码",
+        "demo": "演示"
+      },
+      "project_2": {
+        "name": "农业科技平台 (AGRI TECH PLATFORM)",
+        "role": "角色：后端开发",
+        "goal": "开发一个专注于透明产品原产地声明的农产品交易系统，允许用户在管理农业过程的同时交易农产品。",
+        "features": "实现RBAC和完整的电子商务工作流程，支持图片分享的实时聊天，区块链集成发票...",
+        "result": "在3个月内完成并交付了一个功能齐全的MVP。",
+        "tech": "Golang, Gin, GORM, MySQL, Next.js, TypeScript, Tailwind CSS.",
+        "tools": "Git, GitHub, Trello, Antigravity."
+      },
+      "education_title": "教育背景",
+      "education_school": "胡志明市信息技术学院 (ITC)",
+      "labels": {
+        "goal": "目标",
+        "arch": "架构",
+        "features": "功能",
+        "tech": "技术",
+        "result": "结果",
+        "tools": "工具"
+      }
+    }
+  }
+}

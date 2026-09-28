@@ -1,0 +1,89 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+:root {
+  --background: #f8fafc;
+  --text: #0f172a;
+  --border: #e2e8f0;
+  --button: #2563eb;
+  --button-text: white;
+}
+
+.dark {
+  --background: #020617;
+  --text: #f8fafc;
+  --border: #1e293b;
+  --button: #3b82f6;
+  --button-text: white;
+}
+
+/* Cấu hình cho bong bóng chuyển nền (View Transitions API) */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+
+/* Ẩn thanh cuộn nhưng vẫn cho phép cuộn */
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 0;
+  }
+
+  body {
+    background: white;
+    margin: 0;
+    padding: 0;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Ép tất cả các phần tử phải in đúng màu nền */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+  
+  /* Ẩn các nút bấm, icon, scrollbars khi in */
+  .print\:hidden,
+  #fake-scroll,
+  .animate-bounce {
+    display: none !important;
+  }
+  
+  /* Reset lại toàn bộ transform của GSAP cho tờ CV */
+  .will-change-transform {
+    transform: none !important;
+  }
+
+  .cv-container {
+    transform: none !important;
+    scale: 1 !important;
+    box-shadow: none !important;
+    border: none !important;
+    margin: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* Ẩn vùng chứa không cần thiết của GSAP */
+  .h-\[400vh\] {
+    height: auto !important;
+  }
+  
+  .sticky {
+    position: static !important;
+    height: auto !important;
+    padding-top: 0 !important;
+  }
+}
