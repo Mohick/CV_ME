@@ -103,14 +103,14 @@ const Choose_langage = () => {
         <div className="flex flex-col items-center gap-2">
           {/* Tiêu đề MY CV */}
           <h1 ref={myCvRef} className="opacity-0 text-5xl md:text-8xl font-black text-indigo-600 dark:text-indigo-400 drop-shadow-xl tracking-tighter transition-all duration-300">
-            {Array.from(option.ui?.my_cv || "MY CV").map((char: any, i) => (
+            {Array.from(option?.ui?.my_cv || "MY CV").map((char: any, i) => (
               <span key={i} className="inline-block my-cv-char whitespace-pre">{char}</span>
             ))}
           </h1>
           
           {/* Tiêu đề CHOOSE LANGUAGE */}
           <h2 ref={titleRef} className="opacity-0 text-xl md:text-3xl font-bold text-slate-500 dark:text-slate-400 tracking-[0.2em] uppercase transition-all duration-300">
-            {Array.from(option.ui?.choose_language || "CHOOSE LANGUAGE").map((char: any, i) => (
+            {Array.from(option?.ui?.choose_language || "CHOOSE LANGUAGE").map((char: any, i) => (
               <span key={i} className="inline-block title-char whitespace-pre">{char}</span>
             ))}
           </h2>
@@ -128,7 +128,7 @@ const Choose_langage = () => {
             {/* Cột chứa Button (Bên phải, 1 phần) */}
             <div ref={buttonRef} className="opacity-0 md:col-span-1 flex justify-center h-full">
               <button onClick={handleStart} className="px-8 py-4 md:py-0 w-full h-full min-h-[80px] bg-gradient-to-br from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-bold text-xl rounded-2xl shadow-lg shadow-blue-500/30 dark:shadow-blue-900/50 transition-all hover:scale-[1.03] active:scale-95 flex flex-col md:flex-row items-center justify-center gap-3 group">
-                <span>{option.ui?.start || "Start"}</span>
+                <span>{option?.ui?.start || "Start"}</span>
                 <svg className="w-6 h-6 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                 </svg>

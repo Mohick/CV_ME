@@ -71,7 +71,7 @@ const PapperCV = ({ lang, cvData }: { lang?: { id?: string; flag?: string; count
         <div>
           <h3 className="text-xl font-bold border-b border-white/20 pb-2 mb-4 uppercase">{t.sidebar.programming_langs_title}</h3>
           <ul className="list-disc list-inside space-y-2 text-sm text-white/90 font-medium">
-            {t.sidebar.programming_langs.map((item, idx) => (
+            {t.sidebar.programming_langs.map((item: string, idx: number) => (
               <li key={idx}>{item}</li>
             ))}
           </ul>
@@ -81,7 +81,7 @@ const PapperCV = ({ lang, cvData }: { lang?: { id?: string; flag?: string; count
         <div>
           <h3 className="text-xl font-bold border-b border-white/20 pb-2 mb-4 uppercase">{t.sidebar.tools_title}</h3>
           <ul className="list-disc list-inside space-y-2 text-sm text-white/90 font-medium">
-            {t.sidebar.tools.map((item, idx) => (
+            {t.sidebar.tools.map((item: string, idx: number) => (
               <li key={idx}>{item}</li>
             ))}
           </ul>
@@ -91,7 +91,7 @@ const PapperCV = ({ lang, cvData }: { lang?: { id?: string; flag?: string; count
         <div>
           <h3 className="text-xl font-bold border-b border-white/20 pb-2 mb-4 uppercase">{t.sidebar.certs_title}</h3>
           <div className="space-y-3 text-sm text-white/90">
-            {t.sidebar.certs.map((cert, idx) => (
+            {t.sidebar.certs.map((cert: {name: string, date: string}, idx: number) => (
               <div key={idx} className="flex justify-between items-center">
                 <span className="font-semibold">{cert.name}</span>
                 <span className="text-white/70 text-xs bg-white/10 px-2 py-1 rounded-md">{cert.date}</span>

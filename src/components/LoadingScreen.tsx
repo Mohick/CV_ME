@@ -5,7 +5,7 @@ const LoadingScreen = ({ isLoaded, onExited }: { isLoaded?: boolean, onExited?: 
   const containerRef = useRef<HTMLDivElement>(null);
   const dotsRef = useRef<HTMLDivElement>(null);
   const textRef = useRef<HTMLDivElement>(null);
-  const tl = useRef<gsap.core.Timeline>();
+  const tl = useRef<gsap.core.Timeline | null>(null);
 
   useEffect(() => {
     if (dotsRef.current) {
